@@ -5,7 +5,7 @@ def draw(step):
 def graf():
     height = 20
     step = 1
-    for t in range(height,0,-1):
+    for t in range(height, 0, -1):
         draw(step)
         step = t/20
 

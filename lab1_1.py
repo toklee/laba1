@@ -6,11 +6,11 @@ def draw(offset = 1, lenght = 1, color = 21):
 COLORS = [21,231,9]
 
 
-def flag(height = 3,lenght = 2):
+def flag(height = 3, lenght = 2):
     offset = 1
     for color in COLORS:
         for line in range(offset):
-            draw(offset,lenght,color)
+            draw(offset, lenght, color)
 
 
 if __name__ == '__main__':
